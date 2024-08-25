@@ -1,0 +1,4 @@
+description: Upgrade to Spring Boot 3.1, 3.2, 3.3
+template:
+    executable: ["**/gradlew*", "**/grailsw*"]
+    binaryExtensions: ['png','gif','jpg','jpeg','ico','icns','pdf','zip','jar','class']
