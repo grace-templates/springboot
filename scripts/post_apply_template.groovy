@@ -1,4 +1,4 @@
-def springBootVersion = options['spring-boot-version'] ?: (options['boot-version'] ?: '3.3.3')
+def springBootVersion = options['spring-boot-version'] ?: (options['boot-version'] ?: '3.3.4')
 def springFrameworkVersion = switch(springBootVersion) {
     case { it.startsWith('3.4') } -> '6.2.0-RC1'
     case { it.startsWith('3.3') || it.startsWith('3.2') } -> '6.1.13'
