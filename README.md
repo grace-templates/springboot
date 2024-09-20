@@ -10,7 +10,7 @@ Grace `2023.0.0` provides Application Template to allow developers customize the
 $ grace create-app \
 grace.apps.springboot \
 --template https://github.com/grace-templates/springboot.git
---boot-version=3.3.3 \
+--boot-version=3.3.4 \
 --enable-preview
 ```
 
@@ -20,7 +20,7 @@ or,
 $ grace create-app \
 grace.apps.springboot \
 --template https://github.com/grace-templates/springboot/archive/refs/heads/main.zip
---boot-version=3.3.3 \
+--boot-version=3.3.4 \
 --enable-preview
 ```
 
@@ -29,7 +29,7 @@ or, in your project root directory,
 ```bash
 $ grace app:template \
 --location https://raw.githubusercontent.com/grace-templates/springboot/main/scripts/post_apply_template.groovy \
---boot-version=3.3.3
+--boot-version=3.3.4
 ```
 
 
